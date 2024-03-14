@@ -44,8 +44,16 @@ module BoBingScoring_tb;
     // test stimuli
     initial begin
 
-    // wait for a few clock cycles
-    $display("Condition      || P1, P2, P3, P4, P5, P6");
+    $display("\nBoBing Scoring Testbench\n");
+    #10
+
+    $display("Baccay | Del Mundo | Madrinan\n");
+    #10
+
+    $display("CSARCH1 Design Exercise 2\n");
+    #10
+
+    $display("Test Case      || P1, P2, P3, P4, P5, P6");
     #10;
 
     // test case 1: invalid
@@ -189,7 +197,7 @@ module BoBingScoring_tb;
     D5 = 3'b011;
     D6 = 3'b010;
     #10;
-    $display("One 4-Faced    || %b   %b   %b   %b   %b   %b", P1,P2,P3,P4,P5,P6);
+    $display("One 4-Faced    || %b   %b   %b   %b   %b   %b\n", P1,P2,P3,P4,P5,P6);
     
     // finish sim
     $finish;
