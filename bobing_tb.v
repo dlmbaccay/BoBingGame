@@ -197,8 +197,19 @@ module BoBingScoring_tb;
     D5 = 3'b011;
     D6 = 3'b010;
     #10;
-    $display("One 4-Faced    || %b   %b   %b   %b   %b   %b\n", P1,P2,P3,P4,P5,P6);
+    $display("One 4-Faced    || %b   %b   %b   %b   %b   %b", P1,P2,P3,P4,P5,P6);
     
+    resetInputs;
+    // test case for NO PRIZE
+    D1 = 3'b110;
+    D2 = 3'b001;
+    D3 = 3'b101;
+    D4 = 3'b110;
+    D5 = 3'b011;
+    D6 = 3'b101;
+    #10;
+    $display("No Prize       || %b   %b   %b   %b   %b   %b\n", P1,P2,P3,P4,P5,P6);
+
     // finish sim
     $finish;
     end
