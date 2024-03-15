@@ -7,12 +7,12 @@
 *   -   The module uses a priority-based approach to assign prizes
 *   -   The priority of the prizes is as follows:
 *       1. Invalid Dice:    If any die is not in the range of 1-6
-*       2. First Prize:     Four 4-of-a-kind or Five of any number
+*       2. First Prize:     Four 4-faced or Five of any number
 *       3. Second Prize:    One of each number or Three of a number and Three of another number
-*       4. Third Prize:     Three 4-of-a-kind and any number for the three remaining dice
-*       5. Fourth Prize:    Four of the same number except 4-of-a-kind
-*       6. Fifth Prize:     Two 4-of-a-kind and any number for the four remaining dice
-*       7. Sixth Prize:     One 4-of-a-kind and any number for the five remaining dice
+*       4. Third Prize:     Three 4-faced and any number for the three remaining dice
+*       5. Fourth Prize:    Four of the same number except 4-faced
+*       6. Fifth Prize:     Two 4-faced and any number for the four remaining dice
+*       7. Sixth Prize:     One 4-faced and any number for the five remaining dice
 *   -   If a prize condition is met, the lower priority prizes are reset
 *   -   The prizes are assigned to the output reg variables
 *   -   The module also includes an always block for input validation and prize checking
