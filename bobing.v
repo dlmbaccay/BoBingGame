@@ -4,6 +4,7 @@
 *   -   The module takes in 6 3-bit inputs, each representing a die
 *   -   The module outputs 6 1-bit outputs, each representing a prize
 *   -   Optionally, the module also outputs a 1-bit output for invalid dice detection
+*   -   Inputs are processed where the number of each face is counted
 *   -   The module uses a priority-based approach to assign prizes
 *   -   The priority of the prizes is as follows:
 *       1. Invalid Dice:    If any die is not in the range of 1-6
