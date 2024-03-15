@@ -67,7 +67,7 @@ module BoBingScoring_tb;
     $display("Invalid        || %b   %b   %b   %b   %b   %b", P1,P2,P3,P4,P5,P6);
 
     resetInputs;
-    // test case 2: quadru 4s
+    // test case 2: quadruple 4s
     D1 = 3'b100;
     D2 = 3'b100;
     D3 = 3'b100;
@@ -111,7 +111,7 @@ module BoBingScoring_tb;
     $display("Three-Three    || %b   %b   %b   %b   %b   %b", P1,P2,P3,P4,P5,P6);
     
     resetInputs;
-    // test case for THIRD PRIZE:
+    // test case 6: three 4-faced
     D1 = 3'b100;
     D2 = 3'b001;
     D3 = 3'b100;
@@ -122,7 +122,7 @@ module BoBingScoring_tb;
     $display("Three 4-Faced  || %b   %b   %b   %b   %b   %b", P1,P2,P3,P4,P5,P6);
 
     resetInputs;
-    // test case for FOURTH PRIZE: Four 1-Faced
+    // test case 7: four 1-faced
     D1 = 3'b001;
     D2 = 3'b001;
     D3 = 3'b001;
@@ -133,7 +133,7 @@ module BoBingScoring_tb;
     $display("Four 1-Faced   || %b   %b   %b   %b   %b   %b", P1,P2,P3,P4,P5,P6);
 
     resetInputs;
-    // test case for FOURTH PRIZE: Four 2-Faced
+    // test case 8: four 2-faced
     D1 = 3'b010;
     D2 = 3'b010;
     D3 = 3'b010;
@@ -144,7 +144,7 @@ module BoBingScoring_tb;
     $display("Four 2-Faced   || %b   %b   %b   %b   %b   %b", P1,P2,P3,P4,P5,P6);
 
     resetInputs;
-    // test case for FOURTH PRIZE: Four 3-Faced
+    // test case 9: four 3-faced
     D1 = 3'b011;
     D2 = 3'b011;
     D3 = 3'b011;
@@ -155,7 +155,7 @@ module BoBingScoring_tb;
     $display("Four 3-Faced   || %b   %b   %b   %b   %b   %b", P1,P2,P3,P4,P5,P6);
     
     resetInputs;
-    // test case for FOURTH PRIZE: Four 5-Faced
+    // test case 10: four 5-faced
     D1 = 3'b101;
     D2 = 3'b101;
     D3 = 3'b101;
@@ -166,7 +166,7 @@ module BoBingScoring_tb;
     $display("Four 5-Faced   || %b   %b   %b   %b   %b   %b", P1,P2,P3,P4,P5,P6);
 
     resetInputs;
-    // test case for FOURTH PRIZE: Four 6-Faced
+    // test case 11: four 6-faced
     D1 = 3'b110;
     D2 = 3'b110;
     D3 = 3'b110;
@@ -177,7 +177,7 @@ module BoBingScoring_tb;
     $display("Four 6-Faced   || %b   %b   %b   %b   %b   %b", P1,P2,P3,P4,P5,P6);
 
     resetInputs;
-    // test case for FIFTH PRIZE: Two 4-faced
+    // test case 12: two 4-faced
     D1 = 3'b100;
     D2 = 3'b100;
     D3 = 3'b110;
@@ -189,7 +189,7 @@ module BoBingScoring_tb;
     
 
     resetInputs;
-    // test case for SIXTH PRIZE: One 4-faced
+    // test case 13: one 4-faced
     D1 = 3'b110;
     D2 = 3'b001;
     D3 = 3'b001;
@@ -200,7 +200,7 @@ module BoBingScoring_tb;
     $display("One 4-Faced    || %b   %b   %b   %b   %b   %b", P1,P2,P3,P4,P5,P6);
     
     resetInputs;
-    // test case for NO PRIZE
+    // test case 14: no prize
     D1 = 3'b110;
     D2 = 3'b001;
     D3 = 3'b101;
