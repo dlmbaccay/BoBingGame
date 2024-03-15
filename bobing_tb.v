@@ -100,7 +100,7 @@ module BoBingScoring_tb;
     $display("One of each    || %b   %b   %b   %b   %b   %b", P1,P2,P3,P4,P5,P6);
 
     resetInputs;
-    // test case 5: three of a number AND two of another number
+    // test case 5: three of a number AND three of another number
     D1 = 3'b001;
     D2 = 3'b001;
     D3 = 3'b001;
